@@ -1,5 +1,6 @@
-const handleOnClickAnchor = (event) => {
-  if (event.target.nodeName === "BUTTON") return;
+const input = document.getElementById("input");
 
-  console.log(event.target.nodeName);
+const handleOnClickAnchor = (event) => {
+  console.log(event.target.id);
+  console.dir(input);
 };
