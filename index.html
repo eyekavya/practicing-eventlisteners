@@ -8,6 +8,16 @@
     <title>Event Listeners</title>
   </head>
   <body>
-    <script></script>
+    <div class="grandparent">
+      <div class="parent">
+        <div class="child"></div>
+      </div>
+    </div>
+
+    <button onclick="handleOnClickAnchor(event)">Onclick</button>
+
+    <a href="#" onclick="handleOnClickAnchor()">Google</a>
+
+    <script src="./app.js"></script>
   </body>
 </html>
